@@ -1,20 +1,101 @@
-body{
-  background-color: black;
-  color: white;
-  font-family: Arial;
-}
-nav ul{
-  display: flex;
-  gap: 15px;
-  list-style: none;
-}
-main{
-  max-width: 900px;
-  margin: auto;
-}
-a:hover {
-  color: cypan;
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0c2a; /* azul escuro */
+    color: white;
+}
 
-  
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex; /* FLEXBOX ✔ */
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: cyan;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto; /* centraliza */
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.universo {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.universo div {
+    background-color: #1a1b3a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: cyan;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
