@@ -1,1 +1,20 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Arial;
+}
+nav ul{
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+main{
+  max-width: 900px;
+  margin: auto;
+}
+a:hover {
+  color: cypan;
+}
 
+
+  
